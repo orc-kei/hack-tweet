@@ -2,7 +2,7 @@
   display: flex;
 }
 .side-bar {
-  background-color: #253141;
+  background-color: #d8dadc;
   width: 300px;
   height: 100vh;
 }
@@ -10,8 +10,36 @@
 .side-bar-header {
   height: 100px;
   padding: 0 20px;
+  background-color: #253141;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
+.header-name a{
+  font-size: 16px;
+  color: #FAFAFAFA;
+  text-decoration: none;
+}
+.create-room a {
+  font-size: 16px;
+  color: #FAFAFAFA;
+  text-decoration: none;
+}
+.nav__btn{
+  display: inline-block;
+  padding: 0.4em 1.6em;
+  font-size: 0.8em;
+  color: #888888	;
+  text-decoration: none;
+  user-select: none;
+  border: 1px #888888	solid;
+  border-radius: 3px;
+  transition: 0.4s ease;
+}
+.nav__btn:hover{
+  color: #fff;
+  background: #87CEFA;
+}
 .rooms {
   background-color: #2F3E51;
   height: calc(100vh - 100px);
