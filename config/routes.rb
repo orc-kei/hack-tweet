@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   get 'hacks/index'
   root to: "hacks#index"
   resources :users, only: [:edit, :update]
+  resources :rooms, only: [:new, :create]
 end
